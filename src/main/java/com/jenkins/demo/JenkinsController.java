@@ -14,8 +14,8 @@ public class JenkinsController {
 
     @GetMapping("/test")
     public String testJenkins() {
-        logger.info("hello Jenkins");
-        return "hello Jenkins";
+        logger.info("hello world Jenkins ");
+        return "hello world Jenkins";
     }
 
 }
